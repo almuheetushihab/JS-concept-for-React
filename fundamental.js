@@ -134,3 +134,12 @@ const myPromise = new Promise((resolve, reject) => {
         }
     }, 1000);
 });
+
+// Handling the promise
+myPromise
+    .then(result => {
+        console.log(result); // Output: Operation was successful!
+    })
+    .catch(error => {
+        console.error(error); // Output: Operation failed! (if success is false)
+    });
