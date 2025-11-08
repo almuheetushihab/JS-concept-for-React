@@ -143,3 +143,13 @@ myPromise
     .catch(error => {
         console.error(error); // Output: Operation failed! (if success is false)
     });
+
+    // Concept : 2D Array
+const matrix = [ 
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+// Accessing elements in a 2D array
+console.log(matrix[0][0]); // Output: 1 (first row, first column
+console.log(matrix[1][2]); // Output: 6 (second row, third column)
